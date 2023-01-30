@@ -1,0 +1,114 @@
+/* Selectores de CSS */
+
+
+/* 
+    https://htmlcolorcodes.com/es/nombres-de-los-colores/
+    https://getemoji.com/ 
+*/
+
+
+
+/*
+
+*********** Selectores Básicos ************
+
+Utiliza un selector de etiqueta para aplicar un fondo de color (papayawhip) a todos los elementos p
+
+Utiliza un selector de clase (titulo) para aplicar lo siguiente:
+    * fondo de color teal
+    * color de texto white
+    * texto dentrado 
+*/
+.titulo {
+    background-color: teal;
+}
+.parrafo{
+    background-color: white;
+    color: black;
+}
+
+p{  
+    color: white;
+    text-align: center;
+}
+
+/*
+Utiliza un selector de ID (parrafoNum1) para aplicar lo siguiente:
+    * fondo de color coral
+    * color de texto blue
+    * texto alineado a la derecha
+    * tamaño de fuente 20 px 
+
+*/
+
+#parrafoNum1 {
+    background-color: coral;
+}
+
+#parrafoNum1 {
+    color: blue;
+}
+
+#parrafoNum1 {
+    text-align: right;
+}
+
+#parrafoNum1 {
+    width: 20;    
+}
+
+
+
+
+/*
+Utiliza un selector de Emoji (🍔) para aplicar lo siguiente:
+    * fondo de color negro
+    * color de texto amarillo
+    * texto alineado a la izquierda
+    * tamaño de fuente 30 px 
+    * texto subrayado
+*/
+
+#titulo.titulo1.🍔{
+    background-color: black;}
+
+#titulo.titulo1.🍔{
+    color: yellow;
+}
+#titulo.titulo1.🍔{
+    text-align: left;
+}
+#titulo.titulo1.🍔{
+    text-align: left;
+}
+#titulo.titulo1.🍔{
+    width: 30;
+}
+#titulo.titulo1.🍔{
+    text-decoration: underline;
+}
+
+
+/*
+
+Utiliza un selector universal para aplicar lo siguiente:
+    * fondo de color #ddbcdb
+    * color de texto negro
+    * texto dentrado 
+    * tamaño de fuente 25 px 
+
+*/
+* {  
+    background-color: #ddbcdb;   
+}
+*{
+    color: black;
+}
+*{
+    text-align: center;
+}
+
+*{
+    width: 25;
+}
+    
